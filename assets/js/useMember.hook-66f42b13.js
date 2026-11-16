@@ -1,0 +1,1 @@
+import{T as r}from"./menber-7e952eff.js";import{r as s,lS as o}from"./.pnpm-bde0e844.js";const a=s({});function l(){return{mPayCheck:o(()=>a.value),getDetail:async t=>{const e=await r(t);e&&e.code==="1"&&(a.value=e.data[0])},getMemberDetails:async t=>{const e=await r(t);e&&e.code==="1"&&(a.value=e.data[0])}}}export{l as u};

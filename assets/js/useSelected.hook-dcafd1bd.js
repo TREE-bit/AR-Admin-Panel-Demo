@@ -1,0 +1,1 @@
+const l="#ececec";let e=null,t=null;const c=(o=event)=>{for(a(),e=o.target;e&&e.tagName!=="TR";)e.tagName==="TD"&&(t=e),e=e.parentElement;e&&(e.style.backgroundColor=l),t&&(t.style.backgroundColor=l)},a=()=>{e&&(e.style.backgroundColor="",t.style.backgroundColor="")};export{a as c,c as s};
